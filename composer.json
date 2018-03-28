@@ -1,7 +1,10 @@
 {
-    "name": "ejsexton82/fxphp",
+    "name": "yodarunamok/fxphp",
     "description": "FX.php -- The best way from FileMaker to the Web  http://fx.iviking.org/",
     "type": "library",
+    "autoload": {
+        "classmap": ["FX.php"]
+    },
     "authors": [
         {
             "name": "Chris Hansen",
