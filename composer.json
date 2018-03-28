@@ -1,11 +1,15 @@
 {
-    "name": "yodarunamok/fxphp",
-    "description": "FX.php -- The best way from FileMaker to the Web http://www.iviking.org/FX.php/",
+    "name": "ejsexton82/fxphp",
+    "description": "FX.php -- The best way from FileMaker to the Web  http://fx.iviking.org/",
     "type": "library",
     "authors": [
         {
             "name": "Chris Hansen",
             "email": "fxphp@iviking.org"
+        },
+        {
+            "name": "E.J. Sexton",
+            "email": "ejsexton82@gmail.com"
         }
     ],
     "require": {}
