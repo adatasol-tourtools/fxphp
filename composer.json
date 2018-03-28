@@ -1,0 +1,12 @@
+{
+    "name": "yodarunamok/fxphp",
+    "description": "FX.php -- The best way from FileMaker to the Web http://www.iviking.org/FX.php/",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chris Hansen",
+            "email": "fxphp@iviking.org"
+        }
+    ],
+    "require": {}
+}
