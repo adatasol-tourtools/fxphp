@@ -1,32 +1,52 @@
 {
     "name": "yodarunamok/fxphp",
-    "type": "library",
-    "keywords": ["FileMaker", "PHP", "CWP", "XML", "MySQL"],
-    "license": "Artistic License",
     "description": "A Free, Open Source PHP database abstraction class for accessing FileMaker Pro and other data sources.",
-    "require": {
-        "php": ">=5.3"
-    },
-    "autoload": {
-        "classmap": ["FX.php"]
-    },
+    "keywords": ["FX.php", "FMPXMLRESULT", "FileMaker", "CWP", "FileMaker CWP", "XML", "MySQL"],
+    "homepage": "https://github.com/yodarunamok/fxphp",
+    "type": "library",
+    "license": "Artistic-2.0",
     "authors": [
         {
             "name": "Chris Hansen",
-            "email": "fxphp@iviking.org"
+            "email": "chris@iviking.org",
+            "homepage": "http://www.iviking.org"
+        },
+        {
+            "name": "Gjermund Gusland Thorsen",
+            "email": "gjermundprivat@gmail.com",
+            "homepage": "https://github.com/TyrfingMjolnir/"
         },
         {
             "name": "Chris Adams"
         },
         {
-            "name": "G G Thorsen"
-        },
-        {
             "name": "Masayuki Nii"
-        },
-        {
-            "name": "E.J. Sexton",
-            "email": "ejsexton82@gmail.com"
         }
-    ]
+    ],
+    "support": {
+        "issues": "https://github.com/yodarunamok/fxphp/issues"
+    },
+    "require": {
+        "php": "^5.3.2 || ^7.0"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "platform": {
+            "php": "5.3.9"
+        }
+    },
+    "suggest": {
+    },
+    "autoload": {
+      "classmap": ["FX.php"]
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+        }
+    },
+    "scripts": {
+    }
 }
