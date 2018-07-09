@@ -1,7 +1,12 @@
 {
     "name": "yodarunamok/fxphp",
-    "description": "FX.php -- The best way from FileMaker to the Web  http://fx.iviking.org/",
     "type": "library",
+    "keywords": ["FileMaker", "PHP", "CWP", "XML", "MySQL"],
+    "license": "Artistic License",
+    "description": "A Free, Open Source PHP database abstraction class for accessing FileMaker Pro and other data sources.",
+    "require": {
+        "php": ">=5.3"
+    },
     "autoload": {
         "classmap": ["FX.php"]
     },
@@ -11,9 +16,17 @@
             "email": "fxphp@iviking.org"
         },
         {
+            "name": "Chris Adams"
+        },
+        {
+            "name": "G G Thorsen"
+        },
+        {
+            "name": "Masayuki Nii"
+        },
+        {
             "name": "E.J. Sexton",
             "email": "ejsexton82@gmail.com"
         }
-    ],
-    "require": {}
+    ]
 }
